@@ -1,0 +1,99 @@
+basic:
+    name: 'https://sophisticated.bebright2024.skybox2.com/'
+    environments:
+        production: 'https://sophisticated.bebright2024.skybox2.com/'
+        staging: 'https://sophisticated.bebright2024.skybox4.com/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /services/emergency-services
+        - /professional-referrals
+        - /locations
+        - /locations/chaska
+        - /locations/excelsior
+        - /locations/maple-grove
+        - /locations/omaha
+        - /locations/plymouth
+        - /services
+        - /services/pediatric-dentistry
+        - /services/pediatric-dentistry/infant-exam
+        - /services/pediatric-dentistry/frenectomies
+        - /services/pediatric-dentistry/preventative-care
+        - /services/pediatric-dentistry/preventative-care/dental-exams-cleanings
+        - /services/pediatric-dentistry/preventative-care/fluoride-treatments
+        - /services/pediatric-dentistry/preventative-care/sealant-for-teeth
+        - /services/pediatric-dentistry/restorative-care
+        - /services/pediatric-dentistry/restorative-care/tooth-extractions
+        - /services/pediatric-dentistry/restorative-care/fillings-restorations
+        - /services/pediatric-dentistry/restorative-care/pulpotomies-root-canals
+        - /services/orthodontics
+        - /services/orthodontics/braces
+        - /services/orthodontics/invisalign
+        - /services/orthodontics/retainers
+        - /services/orthodontics/night-guards
+        - /services/diagnostic-services
+        - /services/diagnostic-services/digital-x-rays
+        - /services/diagnostic-services/diagnostic-imaging
+        - /services/specialized-treatments
+        - /services/specialized-treatments/oral-surgery
+        - /services/specialized-treatments/sports-dentistry
+        - /services/specialized-treatments/general-anesthesia
+        - /services/specialized-treatments/sedation-dentistry
+        - /services/specialized-treatments/laser-dentistry
+        - /services/specialized-treatments/special-needs-dentistry
+        - /services/specialized-treatments/dental-monitoring
+        - /about-us
+        - /about-us/what-sets-us-apart
+        - /about-us/our-doctors
+        - /about-us/our-team
+        - /about-us/our-team-grid
+        - /about-us/careers
+        - /about-us/news
+        - /about-us/events
+        - /about-us/contact-us
+        - /your-visit
+        - /your-visit/new-patients
+        - /your-visit/patient-forms
+        - /your-visit/financial-insurance-information
+        - /your-visit/pediatric-faqs
+        - /your-visit/orthodontics-faqs
+        - /resources
+        - /request-an-appointment
+        - /services/restorative-care/tooth-extractions
+        - /privacy-policy
+        - /terms-of-use
+        - /hipaa-notice-of-privacy-practices
+        - /disclosures
+        - /accessibility-statement
+        - /opt-out-preferences
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 10
+    scroll: false
+    headers: {  }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: {  }
+    sensitivity: 30
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
